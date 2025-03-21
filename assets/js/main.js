@@ -11,6 +11,15 @@ const showMenu = (toggleId, navId) =>{
 }
 showMenu('nav-toggle','nav-menu')
 
+function submitForm() {
+    // Clear the form fields
+    document.getElementById('contactForm').reset();
+
+    // Show the alert message
+    alert("Thank you for contacting!");
+}
+
+
 /*==================== REMOVE MENU MOBILE ====================*/
 const navLink = document.querySelectorAll('.nav__link')
 
